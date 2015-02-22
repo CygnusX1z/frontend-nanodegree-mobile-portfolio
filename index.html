@@ -13,8 +13,16 @@
 
     <link href="css/style_mini.css" rel="stylesheet">
     <link href="css/print_mini.css" rel="stylesheet" media="print">
-    <link href="css/smartphones.css" rel="stylesheet" media="(orientation: portrait)">
+    <!-- <link href="css/smartphones.css" rel="stylesheet" media="(orientation: portrait)"> -->
 
+    <script>
+	    /* Smartphones (portrait) */
+	    @media only screen and (max-width: 480px) {
+	      body { font-size: 12px;}
+	      header p { padding-left: 4.5em;}
+	    }
+    </script>
+    
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
