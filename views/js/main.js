@@ -456,8 +456,7 @@ var resizePizzas = function(size) {
       var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
       document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
     }
-  }
- 
+  } 
   changePizzaSizes(size);
 
   // User Timing API is awesome
@@ -538,7 +537,7 @@ document.addEventListener('DOMContentLoaded', function() {
   for (var i = 0; i < 35; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
-    elem.src = "images/pizza2.png";
+    elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
