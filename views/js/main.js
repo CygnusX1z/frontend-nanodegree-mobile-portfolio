@@ -456,7 +456,6 @@ var resizePizzas = function(size) {
       document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
     }
   }
-
   changePizzaSizes(size);
 
   // User Timing API is awesome
@@ -504,8 +503,8 @@ function updatePositions() {
 
   var items = document.getElementsByClassName('mover');
   for (var i = 0; i < items.length; i++) {
-    //var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
-    var phase = Math.sin((document.body.scrollTop / 1250));
+    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+    //var phase = Math.sin((document.body.scrollTop / 1250));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
