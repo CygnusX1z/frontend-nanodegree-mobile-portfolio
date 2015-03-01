@@ -451,10 +451,18 @@ var resizePizzas = function(size) {
   
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
+<<<<<<< HEAD
     for (var i = 0; i < document.querySelectorAll(".randomPizzaContainer").length; i++) {
       var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
       var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
       document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
+=======
+	  var dx = determineDx(document.querySelectorAll(".randomPizzaContainer"), size);
+	  var newwidth = (document.querySelectorAll(".randomPizzaContainer").offsetWidth + dx) + 'px';
+	  var elements = document.querySelectorAll(".randomPizzaContainer");
+	 for (var i = 0; i < elements.length; i++) {       
+      elements[i].style.width = newwidth;
+>>>>>>> refs/remotes/origin/gh-pages
     }
   } 
   changePizzaSizes(size);
