@@ -317,17 +317,14 @@ var selectRandomCheese = function() {
   var randomCheese = pizzaIngredients.cheeses[Math.floor((Math.random() * pizzaIngredients.cheeses.length))];
   return randomCheese;
 }
-
 var selectRandomSauce = function() {
   var randomSauce = pizzaIngredients.sauces[Math.floor((Math.random() * pizzaIngredients.sauces.length))];
   return randomSauce;
 }
-
 var selectRandomCrust = function() {
   var randomCrust = pizzaIngredients.crusts[Math.floor((Math.random() * pizzaIngredients.crusts.length))];
   return randomCrust;
 }
-
 var ingredientItemizer = function(string) {
   return "<li>" + string + "</li>";
 }
@@ -451,19 +448,11 @@ var resizePizzas = function(size) {
   
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
-<<<<<<< HEAD
-    for (var i = 0; i < document.querySelectorAll(".randomPizzaContainer").length; i++) {
-      var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
-      var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
-      document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
-=======
 	  var dx = determineDx(document.querySelectorAll(".randomPizzaContainer"), size);
 	  var newwidth = (document.querySelectorAll(".randomPizzaContainer").offsetWidth + dx) + 'px';
 	  var elements = document.querySelectorAll(".randomPizzaContainer");
 	 for (var i = 0; i < elements.length; i++) {       
       elements[i].style.width = newwidth;
->>>>>>> refs/remotes/origin/gh-pages
-    }
   } 
   changePizzaSizes(size);
 
