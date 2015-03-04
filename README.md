@@ -31,6 +31,11 @@ To achieve these scores I
  	<li>Took _(document.body.scrollTop / 1250)_ out of the _for_ loop in the _phase_ variable and assigned it to a new variable called _top_ and put it outside the _for_ loop</li>
  	<li>In the _i_ var I assigned the beginning count to the length of the 'mover' items then decremented instead incremented </li>
  	<li>Added _"translateX("+left+") translateZ(0)";_ to _updatePosition_ function instead of using _items_ array</li>
+ 	
+ </ol>
+ 
+ **pizza.html** achieve 5ms or less when changing pizza sizes on slider. 
+ <ol>
  	<li>Moved _var dx_ outside the _for_ loop of _changePizzaSizes_ function</li>
  	<li>Moved _var newidth_ outside the _for_ loop of _changePizzaSizes_ function</li>
  	<li>Moved _document.querySelectorAll(".randomPizzaContainer")_ outside the _for_ loop and assigned it to a newly created variable array called _elements_</li>
