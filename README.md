@@ -42,6 +42,11 @@ To achieve these scores I
  	<li>For _var i_ I assigned a beginning value of the _elements_ (randomPizzaContainer) variable instead of zero, as we will always have at least one. I then decremented</li>
  </ol>
  
+ **Resources**
+ <ul>
+ 	<li><a href="https://developer.chrome.com/devtools/docs/demos/too-much-layout/index">Google Timeline demo</a></li>
+ </ul>
+ 
  
 
 
