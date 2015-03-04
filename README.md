@@ -12,13 +12,13 @@ PageSpeed Insights for **index.html**
 </ul>
 To achieve these scores I 
 <ol>
-	<li>Resized the image _pizzaria.jpg_ from its original size of _2048 x 1536_ to _100 x 75_ px.</li>
-    <li>Added <meta http-equiv="Cache-Control" content="max-age=600"/> (although admittedly it did not seem to make a difference)</li>
-    <li>Minified _print.css_ (_print_mini.css_)</li>
-    <li>Added _media="print"_ to _print_mini.css_ ref</li>
-    <li>Inlined _Smartphones (portrait)_ script</li>
-    <li>Added _async_ to script references</li>
-    <li>Inlined _cb_ and _rf_ scripts</li>
+	<li>Resized the image pizzaria.jpg from its original size of 2048 x 1536 to 100 x 75 px</li>
+    <li>Added _<meta http-equiv="Cache-Control" content="max-age=600"/>_ (although admittedly it did not seem to make a difference)</li>
+    <li>Minified print.css (print_mini.css)</li>
+    <li>Added media="print" to print_mini.css ref</li>
+    <li>In-lined Smartphones (portrait) script</li>
+    <li>Added async to script references</li>
+    <li>In-lined cb and rf scripts</li>
  </ol>
  
  **pizza.html** achieve an FPS of 60 consistently when scrolling
