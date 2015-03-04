@@ -5,7 +5,7 @@
 
 **index.html** PageSpeed Insights
 <ul>
-	<li>**Mobile**: 95/100</li>
-	<li>**Desktop**: 97/100</li>
+	<li>Mobile: 95/100</li>
+	<li>Desktop: 97/100</li>
 </ul>
 
