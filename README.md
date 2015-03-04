@@ -21,6 +21,14 @@ To achieve these scores I
     <li>Inlined _cb_ and _rf_ scripts</li>
  </ol>
  
+ **pizza.html** achieve an FPS of 60 consistently when scrolling
+ To achieve this I 
+ <ol>
+ 	<li>Reduced the size of pizza.png as well as optimized for web using Adobe Image Ready 7</li>
+ 	<li>Reduced the number of pizzas created from the original 200 down to 35</li>
+ 	<li></li>
+ </ol>
+ 
  
 
 
