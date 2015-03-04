@@ -34,6 +34,7 @@ To achieve these scores I
  	<li>Moved _var dx_ outside the _for_ loop of _changePizzasizes_ function</li>
  	<li>Moved _var newidth_ outside the _for_ loop of _changePizzasizes_ function</li>
  	<li>Moved _document.querySelectorAll(".randomPizzaContainer")_ outise the _for_ loop and assinged it to a newly created variable called _elements_</li>
+ 	<li>For _var i_ I assigned a beginning value of the _elements_ (randomPizzaContainer) instead of zero, as we will always have at least one. I then decremented</li>
  </ol>
  
  
