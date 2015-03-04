@@ -17,6 +17,10 @@ To achieve these scores I
     <li>Minimized _print.css_ (_print_mini.css_)</li>
     <li>Added _media="print"_ to _print_mini.css_ ref</li>
     <li>Inlined _Smartphones (portrait)_ script</li>
-    <li>Added </li>
+    <li>Added async to script references</li>
+    <li>Inlined _cb_ and _rf_ scripts</li>
+ </ol>
+ 
+ 
 
 
