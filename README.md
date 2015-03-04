@@ -45,6 +45,7 @@ To achieve these scores I
  **Resources**
  <ul>
  	<li><a href="https://developer.chrome.com/devtools/docs/demos/too-much-layout/index">Google Timeline demo</a></li>
+ 	<li><a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fcygnusx1z.github.io%2Ffrontend-nanodegree-mobile-portfolio-project4%2F&tab=mobile">PageSpeed Insights</a></li>
  </ul>
  
  
