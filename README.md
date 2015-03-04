@@ -12,7 +12,7 @@ PageSpeed Insights for **index.html**
 </ul>
 To achieve these scores I 
 <ol>
-	<li>Resized the image _pizzaria.jpg_ from its original size of _2048 x 153_6 to _100 x 75_ px.</li>
+	<li>Resized the image _pizzaria.jpg_ from its original size of _2048 x 1536_ to _100 x 75_ px.</li>
     <li>Added <meta http-equiv="Cache-Control" content="max-age=600"/> (although admittedly it did not seem to make a difference)</li>
     <li>Minified _print.css_ (_print_mini.css_)</li>
     <li>Added _media="print"_ to _print_mini.css_ ref</li>
