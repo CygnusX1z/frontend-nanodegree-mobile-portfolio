@@ -28,12 +28,12 @@ To achieve these scores I
  	<li>Minified _main.js_</li>
  	<li>Reduced the number of pizzas created from the original 200 down to 35</li>
  	<li>Added _requestAnimationFrame_ to scrolling event listener</li>
- 	<li>Took _(document.body.scrollTop / 1250)_ out of the for loop in the _phase_ variable and assigned it to a new variable called _top_ and put it outside the _for_ loop</li>
+ 	<li>Took _(document.body.scrollTop / 1250)_ out of the _for_ loop in the _phase_ variable and assigned it to a new variable called _top_ and put it outside the _for_ loop</li>
  	<li>In the _i_ var I assigned the beginning count to the length of the 'mover' items then decremented instead incremented </li>
  	<li>Added _"translateX("+left+") translateZ(0)";_ to _updatePosition_ function instead of using _items_ array</li>
- 	<li>Moved _var dx_ outside the _for_ loop of _changePizzasizes_ function</li>
- 	<li>Moved _var newidth_ outside the _for_ loop of _changePizzasizes_ function</li>
- 	<li>Moved _document.querySelectorAll(".randomPizzaContainer")_ outise the _for_ loop and assinged it to a newly created variable called _elements_</li>
+ 	<li>Moved _var dx_ outside the _for_ loop of _changePizzaSizes_ function</li>
+ 	<li>Moved _var newidth_ outside the _for_ loop of _changePizzaSizes_ function</li>
+ 	<li>Moved _document.querySelectorAll(".randomPizzaContainer")_ outside the _for_ loop and assigned it to a newly created variable array called _elements_</li>
  	<li>For _var i_ I assigned a beginning value of the _elements_ (randomPizzaContainer) instead of zero, as we will always have at least one. I then decremented</li>
  </ol>
  
