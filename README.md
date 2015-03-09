@@ -48,6 +48,8 @@ To achieve these scores I
  	<li><a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fcygnusx1z.github.io%2Ffrontend-nanodegree-mobile-portfolio-project4%2F&tab=mobile">PageSpeed Insights</a></li>
  	<li><a href="https://developer.chrome.com/devtools/docs/network">Evaluating network performance</a></li>
  	<li><a href="http://jscompress.com">jscompress.com</a></li>
+ 	<li><a href="http://jankfree.org/">jankfree</a></li>
+ 	<li><a href="http://www.smashingmagazine.com/2013/06/10/pinterest-paint-performance-case-study/">Gone In 60 Frames Per Second: A Pinterest Paint Performance Case Study</a></li>
  </ul>
  
  
